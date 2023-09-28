@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+/* LOGO IMAGEM */
+header img{
+    height: 80px;
+    margin-left: 190px;
+}
+
+/* TÍTULO */
+header .texto-header h1{
+    margin-left: 20px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* SUBTÍTULO */
+header .texto-header h3{
+    margin-left: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    color: #2F86D6;
+    font-weight: 600;
+}
+
+/* TEXTO MENU */
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    gap: 20px;
+    font-size: 14px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/* CORPO DO DOCUMENTO */
+body{
+    background-color: #2F86D6;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* ------------------------------------- */
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+
+
+
+h3{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+
+.paragrafos1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+
+}
+
+
+.paragrafos2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    width: 88%;
+    text-align: justify;
+}
+
+
+
+.banner1 img{
+    margin-right: 100px;
+}
+
+/* ------------------------------------- */
+
+.banner2{
+    background-color: #03090f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.banner2 .texto h1{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+.banner2 .texto p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+
+}
+
+
+.banner2 .botao-tabela{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    background-color: #2F86D6;
+    padding: 15px;
+    display: flex;
+    border-radius: 7px;
+
+}
+
+.banner2 .botao-tabela img{
+    margin-right: 7px;
+}
+
+
+/* ------------------------------------- */
+
+.banner3{
+    background-color: white;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.banner3 .titulo h2{
+    padding-top: 60px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner3 .titulo span{
+    color: #2F86D6;
+}
+
+.blocos{
+    display: flex;
+    padding: 100px;
+
+    align-items: center;
+
+}
+
+
+
+.blocos .card1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+    padding: 10px;
+    margin-left: 20px;
+
+
+}
+
+
+.blocos .card1 img{
+    width: 20%;
+    padding: 10px;
+}
+
+.blocos h4{ 
+    font-size: 17px;
+    padding: 9px;
+}
+
+
+/* ------------------------------------- */
+
+.banner4{
+    background-color: #F1F3F7;
+}
+
+.banner4 h2{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.banner4 h2 span{
+    color: #2F86D6;
+}
+
+/* TABELA */
+table img{
+    width: 30%;
+}
+
+
+table th{
+    border: 2px solid #F1F3F7;
+    background-color: white;
+}
+
+
+table p{
+    color: rgb(181, 181, 181);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+table th h3{
+    font-family: 'Public Sans', sans-serif;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+
+table tr td{
+    border: 2px solid #F1F3F7;
+
+}
+
+table{
+    box-shadow: 1px 1px 40px #599EDD;
+    border-collapse: collapse;  
+    width: 75%;  
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+table tr .texto1{
+    background-color: #F1F3F7;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+table tr .texto2{
+    background-color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* -------------------------- */
+
+.banner5{
+    background-color: #2F86D6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.banner5 .texto h1{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    margin-right: 100px;
+}
+
+
+.banner5 .texto p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+
+}
+
+
+.banner5 .botao-tabela{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    background-color: #03090f;
+    padding: 15px;
+    display: flex;
+    border-radius: 7px;
+
+}
+
+.banner5 .botao-tabela img{
+    margin-right: 7px;
+}
+
+/* --------------------------- */
+
+.banner6{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+/* LOGO IMAGEM */
+.banner6 img{
+    height: 80px;
+}
+
+/* TÍTULO */
+.banner6 .texto-header h1{
+    margin-left: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 25px;
+}
+
+/* SUBTÍTULO */
+.banner6 .texto-header h3{
+    margin-left: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    color: #2F86D6;
+    font-weight: 600;
+}
+
+/* TEXTO MENU */
+.banner6 .menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    gap: 20px;
+    font-size: 14px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.banner6 .textos{
+    display: block;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.contatos{
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    padding-bottom: 50px;
+}
+
+/* --------------------------- */
+
+footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Public Sans', sans-serif;
+}
+
+footer span{
+    color: #2F86D6;
+}
+
+#btnTop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #2F86D6;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow{
+    border: solid white;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
